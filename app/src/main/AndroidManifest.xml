@@ -17,8 +17,8 @@
         android:theme="@style/Theme.Assignment5MIT320622550119"
         tools:targetApi="34">
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
         <activity android:name=".Login_Ok" />
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
