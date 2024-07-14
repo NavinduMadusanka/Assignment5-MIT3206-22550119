@@ -58,8 +58,8 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        Button logoutButton = findViewById(R.id.button_back);
-        logoutButton.setOnClickListener(new View.OnClickListener() {
+        Button backButton = findViewById(R.id.button_back);
+        backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
